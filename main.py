@@ -99,8 +99,8 @@ lb_format_info = tk.Label(text='В какой формат конвертиро�
 lb_format_info.place(y=10, x=500)
 
 list_format_file = ttk.Combobox(root,
-                                values=[u'avi', u'mp4', u'mkv', u'mov',
-                                        u'mpeg', u'wav', u'mp3', u'aac', u'flac', u'ogg'],
+                                values=[u'avi', u'mp4', u'mkv', u'mov', u'mpeg',
+                                        u'wav', u'mp3', u'aac', u'flac', u'ogg'],
                                 height=6, state='readonly')
 list_format_file.current(0)
 list_format_file.place(y=10, x=745)
